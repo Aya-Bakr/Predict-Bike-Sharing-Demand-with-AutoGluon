@@ -6,8 +6,7 @@
 It was discovered that several of the forecasts had negative values when the initial submission attempt was made. Submissions with negative forecasts are rejected by Kaggle. Consequently, prior to presenting the results, all negative predictions have to be set to zero. With this modification, Kaggle's requirements were met, enabling the findings to be successfully submitted for assessment.
 
 ### What was the top ranked model that performed?
-TODO: Add your explanation
-The top-ranked model that performed was the one trained with hyperparameter optimization (HPO). It achieved the highest Kaggle score among the models tested, with a score of 0.49.
+The top ranked model that performed in the AutoGluon training was the WeightedEnsemble_L3 model. This model achieved the best performance among all the models tested during the training process.
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
